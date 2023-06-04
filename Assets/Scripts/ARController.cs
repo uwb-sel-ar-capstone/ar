@@ -293,7 +293,6 @@ public class ARController : MonoBehaviour
             {
                 if (wis.getLength() - (wiIndex + 1) == 1)
                 {
-                    UnityEngine.Debug.Log("ITS 1!");
                     WICard1.transform.localScale = new Vector3(0.25f, 0.7f, 1);
                     WICard2.transform.localScale = new Vector3(0, 0, 0);
                     WICard3.transform.localScale = new Vector3(0, 0, 0);
@@ -304,8 +303,6 @@ public class ARController : MonoBehaviour
                 }
                 else if (wis.getLength() - (wiIndex + 1) == 2)
                 {
-                    UnityEngine.Debug.Log("ITS 2!");
-
                     WICard1.transform.localScale = new Vector3(0.25f, 0.7f, 1);
                     WICard2.transform.localScale = new Vector3(0.25f, 0.7f, 1);
                     WICard3.transform.localScale = new Vector3(0, 0, 0);
@@ -319,8 +316,6 @@ public class ARController : MonoBehaviour
                 }
                 else if (wis.getLength() - (wiIndex + 1) == 3)
                 {
-                    UnityEngine.Debug.Log("ITS 3!");
-
                     WICard1.transform.localScale = new Vector3(0.25f, 0.7f, 1);
                     WICard2.transform.localScale = new Vector3(0.25f, 0.7f, 1);
                     WICard3.transform.localScale = new Vector3(0.25f, 0.7f, 1);
